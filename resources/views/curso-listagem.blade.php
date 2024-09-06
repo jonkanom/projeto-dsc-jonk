@@ -8,9 +8,9 @@
             <li class="breadcrumb-item py-2">Cursos</li>
         </ol>
     </nav>
-    @haspermission('curso_cadastrar')
+    
     <a href="{{ route('curso.cadastro') }}" class="btn btn-secondary">Novo Cadastro</a>
-    @endhaspermission()
+    
 @stop
 
 
